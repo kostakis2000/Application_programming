@@ -1,17 +1,6 @@
-let score = 85; // Replace with the numeric score
+let number = 1; // Start with the number 1
 
-let grade;
-
-if (score >= 90) {
-    grade = 'A';
-} else if (score >= 80) {
-    grade = 'B';
-} else if (score >= 70) {
-    grade = 'C';
-} else if (score >= 60) {
-    grade = 'D';
-} else {
-    grade = 'F';
+while (number <= 20) { // Continue as long as the number is less than or equal to 20
+    console.log(number); // Print the current number
+    number++; // Increment the number by 1
 }
-
-console.log(`The grade for a score of ${score} is ${grade}.`);
