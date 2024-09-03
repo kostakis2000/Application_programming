@@ -1,8 +1,8 @@
-let number = 7; // Replace with the number you want to check
+let age = 20; // Replace with the person's age
 
-// Check if the number is even or odd
-if (number % 2 === 0) {
-    console.log(`The number ${number} is even.`);
+// Check if the person is eligible to vote
+if (age >= 18) {
+    console.log("You are eligible to vote.");
 } else {
-    console.log(`The number ${number} is odd.`);
+    console.log("You are not eligible to vote.");
 }
