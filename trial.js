@@ -1,6 +1,7 @@
-let name = "kostakis";  
-let age = 20;         
-let isStudent = true; 
-console.log("Name:", name);
-console.log("Age:", age);
-console.log("Is Student:", isStudent);
+let numberString = "25";        // Example string representing a number
+let actualNumber = Number(numberString); // Convert the string to a number
+let result = actualNumber + 10; // Add 10 to the number
+
+
+console.log(typeof actualNumber);
+console.log("Result:", result); // Log the result
