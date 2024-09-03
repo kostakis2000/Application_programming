@@ -1,10 +1,10 @@
-// Define the function to reverse a string
-function reverseString(str) {
-    return str.split('').reverse().join('');
+// Define the function to create a greeting message
+function greetPerson(name) {
+    return `Hello, ${name}! Welcome to our platform.`;
 }
 
-// Call the function with various strings and log the results
-console.log("Reversed 'hello':", reverseString('hello'));
-console.log("Reversed 'JavaScript':", reverseString('JavaScript'));
-console.log("Reversed '12345':", reverseString('12345'));
-console.log("Reversed 'OpenAI':", reverseString('OpenAI'));
+// Call the function with different names and log the results
+console.log(greetPerson('Alice'));
+console.log(greetPerson('Bob'));
+console.log(greetPerson('Charlie'));
+console.log(greetPerson('Diana'));
