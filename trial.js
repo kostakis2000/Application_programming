@@ -1,6 +1,9 @@
-let originalString = "Hello, JavaScript World!"; // Replace with your string
+let originalString = "JavaScript is a versatile programming language."; // Replace with your string
+let wordToCheck = "versatile"; // Replace with the word you want to check
 
-// Extract a substring from index 7 to index 18 (excluding index 18)
-let substring = originalString.substring(7, 18);
-
-console.log("Substring:", substring);
+// Check if the original string contains the specified word
+if (originalString.includes(wordToCheck)) {
+    console.log(`The string contains the word "${wordToCheck}".`);
+} else {
+    console.log(`The string does not contain the word "${wordToCheck}".`);
+}
