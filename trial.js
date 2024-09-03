@@ -1,4 +1,7 @@
-for (let i = 1; i <= 10; i++) {
-    let multiple = i * 3; // Calculate the multiple of 3
-    console.log(multiple); // Print the result
+let names = ["Alice", "Bob", "Charlie", "Diana"]; // Array of names
+
+// Iterate over the array of names
+for (let i = 0; i < names.length; i++) {
+    let name = names[i]; // Get the current name
+    console.log(`Hello, ${name}!`); // Print a greeting with the name
 }
