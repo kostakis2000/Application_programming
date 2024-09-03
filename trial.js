@@ -1,6 +1,6 @@
-let length = 10;  // Replace with the desired length
-let width = 5;    // Replace with the desired width
+let dividend = 17;  // Replace with the number to be divided
+let divisor = 5;    // Replace with the number to divide by
 
-let area = length * width;  // Calculate the area
+let remainder = dividend % divisor;  // Calculate the remainder
 
-console.log("The area of the rectangle is:", area);
+console.log("The remainder is:", remainder);
