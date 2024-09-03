@@ -1,8 +1,17 @@
-let age = 20; // Replace with the person's age
+let score = 85; // Replace with the numeric score
 
-// Check if the person is eligible to vote
-if (age >= 18) {
-    console.log("You are eligible to vote.");
+let grade;
+
+if (score >= 90) {
+    grade = 'A';
+} else if (score >= 80) {
+    grade = 'B';
+} else if (score >= 70) {
+    grade = 'C';
+} else if (score >= 60) {
+    grade = 'D';
 } else {
-    console.log("You are not eligible to vote.");
+    grade = 'F';
 }
+
+console.log(`The grade for a score of ${score} is ${grade}.`);
