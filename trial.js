@@ -1,9 +1,6 @@
-let originalString = "JavaScript is a versatile programming language."; // Replace with your string
-let wordToCheck = "versatile"; // Replace with the word you want to check
+let favoriteFruits = ["Apple", "Banana", "Mango", "Strawberry", "Blueberry"]; // Replace with your favorite fruits
 
-// Check if the original string contains the specified word
-if (originalString.includes(wordToCheck)) {
-    console.log(`The string contains the word "${wordToCheck}".`);
-} else {
-    console.log(`The string does not contain the word "${wordToCheck}".`);
+// Loop through the array and log each fruit
+for (let i = 0; i < favoriteFruits.length; i++) {
+    console.log(favoriteFruits[i]);
 }
