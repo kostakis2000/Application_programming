@@ -1,6 +1,4 @@
-let number = 1; // Start with the number 1
-
-while (number <= 20) { // Continue as long as the number is less than or equal to 20
-    console.log(number); // Print the current number
-    number++; // Increment the number by 1
+for (let i = 1; i <= 10; i++) {
+    let multiple = i * 3; // Calculate the multiple of 3
+    console.log(multiple); // Print the result
 }
