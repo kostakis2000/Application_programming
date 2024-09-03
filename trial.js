@@ -1,12 +1,8 @@
-let items = ["Apple", "Banana", "Mango", "Orange"]; // Array to search in
-let searchItem = "Mango"; // Item to find
+let number = 7; // Replace with the number you want to check
 
-// Find the index of the specific item
-let index = items.indexOf(searchItem);
-
-// Check if the item was found
-if (index !== -1) {
-    console.log(`The item "${searchItem}" is found at index ${index}.`);
+// Check if the number is even or odd
+if (number % 2 === 0) {
+    console.log(`The number ${number} is even.`);
 } else {
-    console.log(`The item "${searchItem}" is not found in the array.`);
+    console.log(`The number ${number} is odd.`);
 }
