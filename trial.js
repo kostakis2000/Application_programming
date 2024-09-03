@@ -1,6 +1,12 @@
-let favoriteFruits = ["Apple", "Banana", "Mango", "Strawberry", "Blueberry"]; // Replace with your favorite fruits
+let items = ["Apple", "Banana", "Mango", "Orange"]; // Array to search in
+let searchItem = "Mango"; // Item to find
 
-// Loop through the array and log each fruit
-for (let i = 0; i < favoriteFruits.length; i++) {
-    console.log(favoriteFruits[i]);
+// Find the index of the specific item
+let index = items.indexOf(searchItem);
+
+// Check if the item was found
+if (index !== -1) {
+    console.log(`The item "${searchItem}" is found at index ${index}.`);
+} else {
+    console.log(`The item "${searchItem}" is not found in the array.`);
 }
