@@ -1,7 +1,5 @@
-let numberString = "25";        // Example string representing a number
-let actualNumber = Number(numberString); // Convert the string to a number
-let result = actualNumber + 10; // Add 10 to the number
+let nullValue = null;           // Variable with a null value
+let undefinedValue;             // Variable with an undefined value (implicitly)
 
-
-console.log(typeof actualNumber);
-console.log("Result:", result); // Log the result
+console.log("Null Value:", nullValue);
+console.log("Undefined Value:", undefinedValue);
