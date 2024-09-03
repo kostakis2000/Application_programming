@@ -1,5 +1,6 @@
-let nullValue = null;           // Variable with a null value
-let undefinedValue;             // Variable with an undefined value (implicitly)
+let length = 10;  // Replace with the desired length
+let width = 5;    // Replace with the desired width
 
-console.log("Null Value:", nullValue);
-console.log("Undefined Value:", undefinedValue);
+let area = length * width;  // Calculate the area
+
+console.log("The area of the rectangle is:", area);
